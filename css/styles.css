@@ -104,6 +104,10 @@ nav h1 a {
   background-color: #ccc;
 }
 /* ====================== Restaurant Filtering ====================== */
+#interactive-content {
+	width: 100vw;
+}
+
 .filter-options {
   width: 100%;
   height: 80px;
@@ -135,9 +139,13 @@ nav h1 a {
   background-color: #f3f3f3;
   list-style: outside none none;
   margin: 0;
-  padding: 30px 15px 60px;
+  padding: 30px 0 60px 0;
   text-align: center;
 	overflow: auto;
+	width: %100;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 #restaurants-list li {
   background-color: #fff;
