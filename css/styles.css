@@ -290,4 +290,10 @@ nav h1 a {
 }
 #restaurant-hours td {
   color: #666;
+	padding-right: 24px;
+}
+
+#restaurant-hours td:last-child {
+  color: #666;
+	padding-right: 0px;
 }
