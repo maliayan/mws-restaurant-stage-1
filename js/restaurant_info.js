@@ -160,7 +160,7 @@ createReviewHTML = (review) => {
 
   const rating = document.createElement('p');
   rating.classList.add('review-rating');
-  rating.innerHTML = `Rating: ${review.rating}`;
+  rating.innerHTML = `<span class="review-rating-text">Rating:</span> ${review.rating}`;
   li.appendChild(rating);
 
   const comments = document.createElement('p');
