@@ -169,9 +169,10 @@ nav h1 a {
   background-color: #ccc;
   display: block;
   margin: 24px 0 0 0;
-  max-width: 100%;
-  min-height: 248px;
-  min-width: 100%;
+  width: 100%;
+	height: auto;
+  max-height: 248px;
+	overflow: hidden;
 }
 #restaurants-list li h1 {
   color: #f18200;
