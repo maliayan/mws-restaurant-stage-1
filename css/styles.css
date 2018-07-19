@@ -142,13 +142,12 @@ nav h1 a {
   text-align: center;
 	overflow: auto;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
-#restaurants-list:after {
-  content: "";
-  flex-basis: 63%;
+#restaurants-list > *:last-child {
+  flex-grow: 0;
 }
 
 #restaurants-list li {
@@ -195,6 +194,13 @@ nav h1 a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+	transition: 400ms;
+}
+
+#restaurants-list li a:hover {
+  background-color: transparent;
+	border-bottom: 3px solid orange;
+  color: orange;
 }
 
 /* ====================== Restaurant Details ====================== */
