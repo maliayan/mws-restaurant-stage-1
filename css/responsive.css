@@ -7,6 +7,24 @@
   #restaurants-list {
   	justify-content: center;
   }
+
+  .inside #map-container {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    z-index: 0;
+  }
+
+  .inside #map {
+    height: 300px;
+    position: relative;
+  }
+
+  .leaflet-left{
+    top: 80px;
+    left:88%!important;
+    top: 62%!important;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -17,6 +35,24 @@
 
   #restaurants-list {
   	justify-content: center;
+  }
+
+  .inside #map-container {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    z-index: 0;
+  }
+
+  .inside #map {
+    height: 300px;
+    position: relative;
+  }
+
+  .leaflet-left{
+    top: 80px;
+    left:92%!important;
+    top: 65%!important;
   }
 }
 
