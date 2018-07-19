@@ -195,6 +195,9 @@ nav h1 a {
   text-decoration: none;
   text-transform: uppercase;
 	transition: 400ms;
+	-webkit-transition: 400ms;
+	-moz-transition: 400ms;
+	-o-transition: 400ms;
 }
 
 #restaurants-list li a:hover {
