@@ -29,6 +29,10 @@
     left:88%!important;
     top: 62%!important;
   }
+
+  .inside #footer {
+    width: 100%;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -61,6 +65,10 @@
     top: 80px;
     left:92%!important;
     top: 65%!important;
+  }
+
+  .inside #footer {
+    width: 100%;
   }
 }
 
