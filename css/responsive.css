@@ -126,15 +126,87 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  #breadcrumb {
+    width: 100%;
+  }
 
+  .inside #map-container {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    z-index: 0;
+  }
+
+  .inside #map {
+    height: 300px;
+    position: relative;
+  }
+
+  .leaflet-left{
+    top: 80px;
+    left:92%!important;
+    top: 65%!important;
+  }
+
+  #maincontent {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #restaurant-container, #reviews-container {
+    width: 100%;
+  }
+
+  #restaurant-container {
+    padding: 96px 40px 30px;
+  }
+
+  #restaurant-img, #restaurant-cuisine {
+    width: 100%;
+  }
+
+  #reviews-container {
+    padding: 30px 80px 80px 40px;
+  }
+
+  #reviews-list > li {
+    width: 100%;
+  }
+
+  .inside #footer {
+    width: 100%;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  #maincontent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
 
+  #restaurant-container, #reviews-container {
+    width: 50%;
+  }
+
+  #restaurant-img, #restaurant-cuisine {
+    width: 85%;
+  }
+
+  #reviews-container {
+    padding: 30px 0 80px 40px;
+  }
+
+  #reviews-list > li {
+    width: 78%;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+  #reviews-list > li {
+    width: 83%;
+  }
 }
