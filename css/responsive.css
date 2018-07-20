@@ -30,6 +30,32 @@
     top: 62%!important;
   }
 
+  #maincontent {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #restaurant-container, #reviews-container {
+    width: 100%;
+  }
+
+  #restaurant-container {
+    padding: 96px 40px 30px;
+  }
+
+  #restaurant-img, #restaurant-cuisine {
+    width: 100%;
+  }
+
+  #reviews-container {
+    padding: 30px 80px 80px 40px;
+  }
+
+  #reviews-list > li {
+    width: 100%;
+  }
+
   .inside #footer {
     width: 100%;
   }
@@ -65,6 +91,32 @@
     top: 80px;
     left:92%!important;
     top: 65%!important;
+  }
+
+  #maincontent {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #restaurant-container, #reviews-container {
+    width: 100%;
+  }
+
+  #restaurant-container {
+    padding: 96px 40px 30px;
+  }
+
+  #restaurant-img, #restaurant-cuisine {
+    width: 100%;
+  }
+
+  #reviews-container {
+    padding: 30px 80px 80px 40px;
+  }
+
+  #reviews-list > li {
+    width: 100%;
   }
 
   .inside #footer {
