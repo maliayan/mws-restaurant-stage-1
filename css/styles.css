@@ -146,8 +146,11 @@ nav h1 a {
 	flex-wrap: wrap;
 }
 
-#restaurants-list > *:last-child {
-  flex-grow: 0;
+#restaurants-list::after {
+	content: '';
+	width: 270px;
+	margin: 15px;
+	padding: 0 30px 25px;
 }
 
 #restaurants-list li {
